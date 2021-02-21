@@ -4,7 +4,7 @@
     "description": "my online pet store",
     "icons": [
         {
-            "src": "images/icon-512.webp",
+            "src": "images/icon-512.png",
             "size": "512x512",
             "type": "image/png"
         }
