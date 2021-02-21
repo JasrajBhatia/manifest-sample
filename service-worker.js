@@ -3,17 +3,20 @@ var cacheFiles = [
     'index.html',
     'products.js',
     'petstore.webmanifest',
-    'images/yarn.jpeg',
-    'images/cat-eating.jpeg',
-    'images/icon-512.jpg',
+    'images/yarn.jpg',
+    'images/cat-litter.jpg',
+    'images/laser-pointer.jpg',
+    'images/cat-house.jpg',
+    'images/icon-store-512.png'
+    
 ];
 
 self.addEventListener('install', (e) => {
-    console.log('[Service Worker] Installed');
+    console.log('[Service Worker] Install');
     e.waitUntil(
         caches.open(cacheName).then((cache) => {
             console.log('[Service Worker] Caching all the files');
-            return cache.addAll(cacheFiles)
+            return cache.addAll(cacheFiles);
         })
     );
 });
@@ -24,7 +27,7 @@ self.addEventListener('install', (e) => {
 //         caches.match(e.request).then(function (r) {
 //             console.log('[Service Worker] Fetching resource: ' + e.request.url);
 //             // 'r' is the matching file if it exists in the cache
-//             return r
+//             return r 
 //         })
 //     );
 // });
