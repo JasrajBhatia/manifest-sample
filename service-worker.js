@@ -5,7 +5,7 @@ var cacheFiles = [
     'petstore.webmanifest',
     'images/yarn.jpeg',
     'images/cat-eating.jpeg',
-    'images/icon-512.png',
+    'images/icon-512.jpg',
 ];
 
 self.addEventListener('install', (e) => {
@@ -17,3 +17,10 @@ self.addEventListener('install', (e) => {
         })
     );
 });
+
+// self.addEventListener('fetch' function(e) {
+//     e.respondWith(
+//         // check if 
+        
+//     )
+// })
