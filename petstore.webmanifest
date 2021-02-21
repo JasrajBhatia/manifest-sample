@@ -6,10 +6,10 @@
         {
             "src": "images/icon-512.png",
             "size": "512x512",
-            "type": "image/png"
+            "type": "images/png"
         }
     ],
     "start_url": "index.html",
-    "display": "fullscreemn",
-    "background_colour": "#B12A34" 
+    "display": "fullscreen",
+    "background_color": "#B12A34" 
 }
