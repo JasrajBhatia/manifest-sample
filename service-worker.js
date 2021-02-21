@@ -5,5 +5,5 @@ var cacheFiles = [
     'petstor.webmanifest',
     'images/yarn.jpeg',
     'images/cat-eating.jpeg',
-    'images/icon-512.webp',
+    'images/icon-512.png',
 ];
